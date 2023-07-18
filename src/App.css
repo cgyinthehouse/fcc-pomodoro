@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Good Times";
+  src: url("/src/assets/fonts/good\ times\ rg.otf");
+}
+
+@font-face {
+  font-family: "Toxigenesis";
+  src: url("/src/assets/fonts/toxigenesis\ bd.otf");
+}
+
+#root {
+  max-width: 1280px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  height: 100%;
+}
+
+pre {
+  user-select: none;
+}
+
+header > pre {
+  width: 100%;
+  line-height: 1;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+#session-label,
+#break-label,
+#timer-label {
+  font-family: "Good Times", Ubuntu, sans-serif;
+}
+
+#time-left,
+#session-length,
+#break-length {
+  font-size: 2em;
+  font-family: "Toxigenesis", Ubuntu, sans-serif;
+  line-height: 2;
+}
+
+section.timer {
+  margin: 0 auto;
+  padding: 2rem 0;
+  gap: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.timer > div {
+  flex: 0 1 calc(100% / 3);
+}
+
+@media screen and (width <= 380px) {
+  header > pre {
+    font-size: 6px;
+  }
+  #time-left,
+  #session-length,
+  #break-length {
+    font-size: 1.3em;
+  }
+  #session-label,
+  #break-label,
+  #timer-label {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (380px < width <= 430px) {
+  header > pre {
+    font-size: 7px;
+  }
+}
+
+@media screen and (430px < width <= 600px) {
+  header > pre {
+    font-size: 9px;
+  }
+}

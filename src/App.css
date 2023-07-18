@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Good Times";
-  src: url("/src/assets/fonts/good\ times\ rg.otf");
+  src: url("/fonts/good\ times\ rg.otf");
 }
 
 @font-face {
   font-family: "Toxigenesis";
-  src: url("/src/assets/fonts/toxigenesis\ bd.otf");
+  src: url("/fonts/toxigenesis\ bd.otf");
 }
 
 #root {

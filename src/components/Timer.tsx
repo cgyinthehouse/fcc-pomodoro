@@ -123,7 +123,7 @@ export default function Timer() {
           <LuTimerReset title="reset" />
         </button>
       </div>
-      <audio id="beep" ref={audio} preload="auto" src="/src/assets/rr-trimed.mov"></audio>
+      <audio id="beep" ref={audio} preload="auto" src="/rr-trimed.mov"></audio>
     </section>
   );
 }
